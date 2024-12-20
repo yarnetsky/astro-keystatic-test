@@ -3,7 +3,7 @@ dist/
 z-older/
 # generated types
 .astro/
-
+.vercel/
 # dependencies
 node_modules/
 

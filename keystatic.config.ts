@@ -19,7 +19,7 @@ export default config({
           label: 'Draft',
           description: 'Set this post as draft to prevent it from being published'
         }),
-        pubdate: fields.date({ label: 'Publication date', }),
+        pubDate: fields.date({ label: 'Publication date', }),
         tags: fields.array(
           fields.text({ label: 'Tag' }),
           {
@@ -27,7 +27,7 @@ export default config({
             itemLabel: props => props.value 
           }
         ),
-        exceprt: fields.text({
+        description: fields.text({
           label: 'Excerpt',
           multiline: true
         }),
@@ -40,13 +40,7 @@ export default config({
             },
           },
         }),
-        heroImage: fields.cloudImage({
-          label: 'Hero Image',
-          description: 'Hero Image for this page',
-          validation: {
-            isRequired: true
-          }
-        }),
+        heroImage: fields.text({ label: 'Hero Image', }),
       },
     }),
   },

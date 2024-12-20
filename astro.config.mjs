@@ -9,14 +9,11 @@ import keystatic from '@keystatic/astro';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
-	integrations: [
-		react(), 
-		mdx(), 
-		markdoc(), 
-		keystatic(), 
-		sitemap()
-	],
-	output: 'server',
+    site: 'https://example.com',
+    integrations: [
+    mdx(), 
+    keystatic(), 
+    sitemap(), react(), markdoc()],
+    output: 'server',
   	adapter: vercel(),
 });
