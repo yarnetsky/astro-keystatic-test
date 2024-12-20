@@ -1,17 +1,17 @@
 import rss from '@astrojs/rss';
-import { g as getCollection } from '../chunks/_astro_content_qJiFNVi_.mjs';
+import { g as getCollection } from '../chunks/_astro_content_CFhz15zx.mjs';
 import { S as SITE_TITLE, a as SITE_DESCRIPTION } from '../chunks/consts_BuHq6iFx.mjs';
 export { renderers } from '../renderers.mjs';
 
 async function GET(context) {
-	const posts = await getCollection('blog');
+	const posts = await getCollection('posts');
 	return rss({
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
 		site: context.site,
 		items: posts.map((post) => ({
 			...post.data,
-			link: `/blog/${post.id}/`,
+			link: `/posts/${post.id}/`,
 		})),
 	});
 }

@@ -1,5 +1,5 @@
-import { c as createAstro, a as createComponent, r as renderTemplate, b as renderComponent, d as renderHead } from '../chunks/astro/server_BIrGOy1m.mjs';
-import { $ as $$BaseHead, a as $$Header, b as $$Footer } from '../chunks/Footer_Bhojt87O.mjs';
+import { c as createAstro, a as createComponent, r as renderTemplate, b as renderComponent, d as renderHead } from '../chunks/astro/server_3vvffOZR.mjs';
+import { $ as $$BaseHead, a as $$Header, b as $$Footer } from '../chunks/Footer_BwsDgwP9.mjs';
 import { S as SITE_TITLE, a as SITE_DESCRIPTION } from '../chunks/consts_BuHq6iFx.mjs';
 export { renderers } from '../renderers.mjs';
 

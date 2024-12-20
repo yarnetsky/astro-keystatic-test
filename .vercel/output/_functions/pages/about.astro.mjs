@@ -1,5 +1,5 @@
-import { a as createComponent, r as renderTemplate, b as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_BIrGOy1m.mjs';
-import { $ as $$BlogPost } from '../chunks/BlogPost_DpUsLG7A.mjs';
+import { a as createComponent, r as renderTemplate, b as renderComponent, m as maybeRenderHead } from '../chunks/astro/server_3vvffOZR.mjs';
+import { $ as $$BlogPost } from '../chunks/BlogPost_BC_z4tmj.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$About = createComponent(($$result, $$props, $$slots) => {
